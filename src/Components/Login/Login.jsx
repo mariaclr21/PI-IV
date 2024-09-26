@@ -73,7 +73,7 @@ const Login = () => {
         {error && <p className="error-message">{error}</p>}
 
         <div className="recall-forget">
-          <a href="#">Esqueceu sua senha?</a>
+          <a href="#">Esqueci minha senha?</a>
         </div>
         <button type="submit">{isRegister ? "Registrar" : "Login"}</button>
         <div className="signup-link">
